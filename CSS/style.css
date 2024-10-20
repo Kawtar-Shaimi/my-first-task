@@ -154,7 +154,7 @@
 .banner-container{
     background-image: url(../IMAGES/bakery15.png);
     background-size: cover;
-    height: 514px;
+    height: 536px;
 }
 
 .banner-container .contenu{
@@ -207,7 +207,7 @@
     justify-content: space-around;
     list-style: none;
     margin: 0 300px;
-    border-bottom: 0.5px solid #5D5D5D;
+    border-bottom: 1px solid #B9B9B9;
 }
 
 .menu .line{
@@ -234,4 +234,42 @@
 
 .each-card{
     margin: 11px;
+}
+
+/* Banner 2 Section */
+
+.banner2-container{
+    background-image: url(../IMAGES/bakery14.png);
+    background-size: cover;
+    height: 536px;
+    margin: 150px auto;
+}
+.banner2-container .contenu{
+    text-align: center;
+    padding: 77px 577px;
+}
+
+.contenu .reduction{
+    color: white;
+    font-size: 48px;
+    font-family: 'Sansita Swashed', cursive;
+    padding: 20px;
+}
+
+.contenu .description{
+    color: #B9B9B9;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    padding: 5px;
+}
+
+.contenu button{
+    background-color: #933C24;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 23px;
+    border: #933C24;
+    border-radius: 10px;
+    margin-top: 20px;
 }
