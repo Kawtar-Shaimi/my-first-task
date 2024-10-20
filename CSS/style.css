@@ -77,3 +77,64 @@
     color: #E9BD8C;
     font-family: 'Inter', sans-serif;
 }
+
+/* TOP PRODUCT SECTION */
+/* .products{
+    width: 100%;
+} */
+
+.top-container p{
+    color: black;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 74px;
+    margin: 100px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.all-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: white;
+    font-family:  'Inter', sans-serif;
+}
+
+.card{
+    background-image: url(../IMAGES/backgroundBakery.png);
+    background-size: cover;
+    width: 30%;
+    height: 418px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.card img{
+    margin: 15px 45px;
+}
+
+.card .text{
+    margin-left: 25px ;
+    font-family:  'Inter', sans-serif;
+}
+
+/* .card .text p :first-child{
+    margin: 23px auto;
+} */
+
+.add {
+    background-color: #933C24;
+    border-radius: 5px;
+    padding: 16px 12px;
+    color: white;
+    font-size: 18px;
+    margin: 0 75px;
+}
+
+.move{
+    display: flex;
+    display: space-between;
+    margin-top: 30px;
+}
+
