@@ -64,6 +64,7 @@
 
 .whole-content .btn-link{
     background-color: #933C24;
+    border: #933C24;
     padding: 24px 38px;
     color: white;
     border-radius: 10px;
@@ -78,11 +79,9 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* TOP PRODUCT SECTION */
-/* .products{
-    width: 100%;
-} */
-
+.container2{
+    margin: 150px auto;
+}
 .top-container p{
     color: black;
     font-family: 'Sansita Swashed', cursive;
@@ -119,12 +118,9 @@
     font-family:  'Inter', sans-serif;
 }
 
-/* .card .text p :first-child{
-    margin: 23px auto;
-} */
-
 .add {
     background-color: #933C24;
+    border: #933C24;
     border-radius: 5px;
     padding: 9px 21px;
     color: white;
@@ -148,3 +144,4 @@
     padding: 10px 18px;
     font-family: 'Inter', sans-serif;
 }
+
