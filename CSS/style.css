@@ -111,7 +111,7 @@
 }
 
 .card img{
-    margin: 15px 45px;
+    margin: 15px 69px;
 }
 
 .card .text{
@@ -126,15 +126,25 @@
 .add {
     background-color: #933C24;
     border-radius: 5px;
-    padding: 16px 12px;
+    padding: 9px 21px;
     color: white;
     font-size: 18px;
-    margin: 0 75px;
+    margin-left: 128px;
 }
 
 .move{
     display: flex;
-    display: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
+.footer-card{
+    width: 100px;
+}
+
+.move .i{
+    margin-left: 215px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px 18px;
+    font-family: 'Inter', sans-serif;
+}
