@@ -79,9 +79,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* Top Product Section */
+
 .container2{
     margin: 150px auto;
 }
+
 .top-container p{
     color: black;
     font-family: 'Sansita Swashed', cursive;
@@ -118,23 +121,9 @@
     font-family:  'Inter', sans-serif;
 }
 
-.add {
-    background-color: #933C24;
-    border: #933C24;
-    border-radius: 5px;
-    padding: 9px 21px;
-    color: white;
-    font-size: 18px;
-    margin-left: 128px;
-}
-
 .move{
     display: flex;
     margin-top: 20px;
-}
-
-.footer-card{
-    width: 100px;
 }
 
 .move .i{
@@ -145,3 +134,55 @@
     font-family: 'Inter', sans-serif;
 }
 
+.footer-card{
+    width: 100px;
+}
+
+.add {
+    background-color: #933C24;
+    border: #933C24;
+    border-radius: 5px;
+    padding: 9px 21px;
+    color: white;
+    font-size: 18px;
+    margin-left: 128px;
+}
+
+
+/* Banner Section */
+
+.banner-container{
+    background-image: url(../IMAGES/bakery15.png);
+    background-size: cover;
+    height: 514px;
+}
+
+.banner-container .contenu{
+    text-align: center;
+    padding: 77px 585px;
+}
+
+.contenu .reduction{
+    color: #933C24;
+    font-size: 48px;
+    font-family: 'Sansita Swashed', cursive;
+    padding: 20px;
+}
+
+.contenu .description{
+    color: #5D5D5D;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    padding: 5px;
+}
+
+.contenu button{
+    background-color: #933C24;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    padding: 15px 23px;
+    border: #933C24;
+    border-radius: 10px;
+    margin-top: 20px;
+}
