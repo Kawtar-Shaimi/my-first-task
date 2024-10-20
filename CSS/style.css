@@ -273,3 +273,36 @@
     border-radius: 10px;
     margin-top: 20px;
 }
+
+/* Feature treats Section */
+
+.feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+    margin: auto;
+}
+
+.each-one-card{
+    margin: 11px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.bottom p{
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.bottom :first-child{
+    margin-right: 100px;
+}
+
+.bottom :last-child{
+    margin-right: -14px;
+}
